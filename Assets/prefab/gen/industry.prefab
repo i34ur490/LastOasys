@@ -14,23 +14,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 9.9714
+      value: 18.719034
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 9.9714
+      value: 18.719034
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 9.9714
+      value: 18.719034
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.58
+      value: 8.28
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -71,6 +71,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3094914530847313070}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2921515171436357739}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 344da789a8dafc84b8e68119c478cd2a, type: 3}
 --- !u!1 &1722381430740869955 stripped
 GameObject:
@@ -98,3 +101,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.120000005
   m_Center: {x: -0.009999998, y: 0.12, z: 0}
+--- !u!114 &2921515171436357739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722381430740869955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ed2bdf0ee1e9074894d53299979e2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 6954920310610062480, guid: 57f00eb22cfd44743a1f9853f0c2ab24, type: 3}
+  spawnRate: 5
+  spawnIncreaseRate: 0.1

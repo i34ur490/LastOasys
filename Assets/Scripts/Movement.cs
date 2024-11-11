@@ -8,8 +8,8 @@ public class Movement : MonoBehaviour
     private float horizontal;
     private float vertical;
 
-    [SerializeField]
-    private float moveSpeed = 5f;
+    
+    public float moveSpeed = 5f;
 
 
     void Start()
