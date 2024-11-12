@@ -221,3 +221,4 @@ MonoBehaviour:
   headTransform: {fileID: 9070187393645373709}
   pickupRange: 2
   spacing: 0.5
+  moneyText: {fileID: 0}
