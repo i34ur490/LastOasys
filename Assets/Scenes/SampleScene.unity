@@ -25210,6 +25210,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3315630394638124033, guid: 88c7f9a5154121946b80d0e45117ed26, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9144008072434635281, guid: 0c4e02fa1b9614644be6c6fba8acccbe, type: 3}
     - target: {fileID: 4603996119085270391, guid: 88c7f9a5154121946b80d0e45117ed26, type: 3}
       propertyPath: m_Name
       value: BrownTrash
